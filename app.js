@@ -19,7 +19,8 @@ if (process.env.NODE_ENV === 'production') {
     })
 }
 
-const PORT = config.get('port') || 5000
+// const PORT = config.get('port') || 5000 - верный конфиг по MERN
+const PORT = process.env.PORT || 5000 // конфиг, чтобы хероку не ругался
 
 async function start() {
     try {
