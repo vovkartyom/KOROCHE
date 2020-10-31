@@ -1,0 +1,6 @@
+{
+  "port": 8081,
+  "jwtSecret": "Hello Otus",
+  "mongoUri": "mongodb+srv://Artyom:220294@cluster0.wkozv.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:8081"
+}
