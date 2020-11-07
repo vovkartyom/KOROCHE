@@ -12,7 +12,7 @@ export const LinksList = ({ links }) => {
                 <th>№</th>
                 <th>Оригинальная</th>
                 <th>Сокращенная</th>
-                <th>Октрыть</th>
+                <th>Открыть</th>
             </tr>
             </thead>
 
@@ -24,7 +24,7 @@ export const LinksList = ({ links }) => {
                         <td>{link.from}</td>
                         <td>{link.to}</td>
                         <td>
-                            <Link to={`/detail/${link.ideographic}`}>Перейти</Link>
+                            <Link to={`/detail/${link._id}`}>Перейти</Link>
                         </td>
                     </tr>
                 )
